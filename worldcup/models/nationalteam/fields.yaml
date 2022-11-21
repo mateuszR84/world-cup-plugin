@@ -6,3 +6,7 @@ fields:
     id:
         label: ID
         disabled: true
+    country_name:
+        label: mateusz.worldcup::lang.models.national_team.country_name
+        type: dropdown
+    
