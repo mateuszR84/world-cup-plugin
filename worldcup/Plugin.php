@@ -81,13 +81,11 @@ class Plugin extends PluginBase
      */
     public function registerNavigation()
     {
-        return []; // Remove this line to activate
-
         return [
             'worldcup' => [
                 'label'       => 'WorldCup',
                 'url'         => Backend::url('mateusz/worldcup/mycontroller'),
-                'icon'        => 'icon-leaf',
+                'icon'        => 'icon-futbol-o',
                 'permissions' => ['mateusz.worldcup.*'],
                 'order'       => 500,
             ],

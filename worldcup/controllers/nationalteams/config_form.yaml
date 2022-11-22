@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: National Team
+
+# Model Form Field configuration
+form: $/mateusz/worldcup/models/nationalteam/fields.yaml
+
+# Model Class name
+modelClass: Mateusz\WorldCup\Models\NationalTeam
+
+# Default redirect location
+defaultRedirect: mateusz/worldcup/nationalteams
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: mateusz/worldcup/nationalteams/update/:id
+    redirectClose: mateusz/worldcup/nationalteams
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: mateusz/worldcup/nationalteams
+    redirectClose: mateusz/worldcup/nationalteams
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
