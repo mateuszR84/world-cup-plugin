@@ -73,22 +73,4 @@ class Plugin extends PluginBase
             ],
         ];
     }
-
-    /**
-     * Registers back-end navigation items for this plugin.
-     *
-     * @return array
-     */
-    public function registerNavigation()
-    {
-        return [
-            'worldcup' => [
-                'label'       => 'WorldCup',
-                'url'         => Backend::url('mateusz/worldcup/mycontroller'),
-                'icon'        => 'icon-futbol-o',
-                'permissions' => ['mateusz.worldcup.*'],
-                'order'       => 500,
-            ],
-        ];
-    }
 }

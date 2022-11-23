@@ -73,7 +73,14 @@ class NationalTeam extends Model
     public function getCountryNameOptions()
     {
         return [
-            '1' => '1',
+            'AL' => 'Albania',
+            'AR' => 'Argentina',
+            'BE' => 'Belgium',
         ];
+    }
+
+    public function afterCreate()
+    {
+        $this->flag = $this->country_name;
     }
 }

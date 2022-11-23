@@ -3,6 +3,9 @@
 # ===================================
 
 columns:
-    id:
-        label: ID
-        searchable: true
+    country_name:
+        label: mateusz.worldcup::lang.models.national_team.country_name
+    flags:
+        label: mateusz.worldcup::lang.models.national_team.flag
+        type: partial
+        path: ~/plugins/mateusz/worldcup/models/nationalteam/_flags_column.htm

@@ -1,0 +1,9 @@
+permissions:
+    mateusz.worldcup.access_settings: 
+        tab: 'mateusz.worldcup::lang.permissions.worldcup'
+navigation:
+    worldcup:
+        label: mateusz.worldcup::lang.navigation.name
+        url: mateusz/worldcup/nationalTeams
+        icon: icon-futbol-o
+        order: 400

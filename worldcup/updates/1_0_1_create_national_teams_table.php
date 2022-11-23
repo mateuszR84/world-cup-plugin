@@ -13,6 +13,8 @@ class CreateNationalTeamsTable extends Migration
     {
         Schema::create('mateusz_worldcup_national_teams', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('country_name')->nullable();
+            $table->string('flag')->nullable();
             $table->timestamps();
         });
     }

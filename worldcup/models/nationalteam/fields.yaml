@@ -9,4 +9,3 @@ fields:
     country_name:
         label: mateusz.worldcup::lang.models.national_team.country_name
         type: dropdown
-    
