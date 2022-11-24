@@ -15,6 +15,7 @@ class CreateNationalTeamsTable extends Migration
             $table->increments('id');
             $table->string('country_name')->nullable();
             $table->string('flag')->nullable();
+            $table->integer('caps_no')->nullable();
             $table->timestamps();
         });
     }

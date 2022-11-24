@@ -1,0 +1,46 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    host:
+        label: mateusz.worldcup::lang.models.world_cup.host
+        type: text
+    year:
+        label: mateusz.worldcup::lang.models.world_cup.year
+        type: dropdown
+    start_date:
+        label: mateusz.worldcup::lang.models.world_cup.start_date
+        type: datepicker
+        mode: date
+        span: left
+    end_date:
+        label: mateusz.worldcup::lang.models.world_cup.end_date
+        type: datepicker
+        mode: date
+        span: right
+    stadiums:
+        label: mateusz.worldcup::lang.models.world_cup.stadiums.stadiums
+        type: repeater
+        form:
+            fields:
+                name: 
+                    label: mateusz.worldcup::lang.models.world_cup.stadiums.name
+                    type: text
+                city: 
+                    label: mateusz.worldcup::lang.models.world_cup.stadiums.city
+                    type: text
+                capacity:
+                    label: mateusz.worldcup::lang.models.world_cup.stadiums.capacity
+                    type: text
+    logos:
+        label: mateusz.worldcup::lang.models.world_cup.logos
+        type: fileupload
+    no_of_teams:
+        label: mateusz.worldcup::lang.models.world_cup.no_of_teams
+        type: number
+        span: left
+    goals_overall:
+        label: mateusz.worldcup::lang.models.world_cup.goals_overall
+        type: number
+        span: right

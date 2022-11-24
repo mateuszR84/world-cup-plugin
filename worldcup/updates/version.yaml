@@ -1,3 +1,4 @@
 1.0.1: 
     - First version of WorldCup
     - 1_0_1_create_national_teams_table.php
+    - 1_0_1_create_world_cups_table.php

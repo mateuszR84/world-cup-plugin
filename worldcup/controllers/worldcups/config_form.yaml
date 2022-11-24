@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: World Cup
+
+# Model Form Field configuration
+form: $/mateusz/worldcup/models/worldcup/fields.yaml
+
+# Model Class name
+modelClass: Mateusz\WorldCup\Models\WorldCup
+
+# Default redirect location
+defaultRedirect: mateusz/worldcup/worldcups
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: mateusz/worldcup/worldcups/update/:id
+    redirectClose: mateusz/worldcup/worldcups
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: mateusz/worldcup/worldcups
+    redirectClose: mateusz/worldcup/worldcups
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

@@ -1,0 +1,23 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    host:
+        label: mateusz.worldcup::lang.models.world_cup.host
+    year:
+        label: mateusz.worldcup::lang.models.world_cup.year
+    start_date:
+        label: mateusz.worldcup::lang.models.world_cup.start_date
+    end_date:
+        label: mateusz.worldcup::lang.models.world_cup.end_date
+    logos:
+        label: mateusz.worldcup::lang.models.world_cup.logos
+        type: image
+        sortable: false
+    no_of_teams:
+        label: mateusz.worldcup::lang.models.world_cup.no_of_teams
+    goals_overall:
+        label: mateusz.worldcup::lang.models.world_cup.goals_overall
+    goals_average:
+        label: mateusz.worldcup::lang.models.world_cup.goals_average

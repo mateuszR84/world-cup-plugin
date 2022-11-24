@@ -7,3 +7,12 @@ navigation:
         url: mateusz/worldcup/nationalTeams
         icon: icon-futbol-o
         order: 400
+        sideMenu:
+            teams:
+                label: mateusz.worldcup::lang.navigation.teams
+                url: mateusz/worldcup/nationalTeams
+                icon: icon-futbol-o
+            worldcups:
+                label: mateusz.worldcup::lang.navigation.worldcups
+                url: mateusz/worldcup/worldcups
+                icon: icon-home
